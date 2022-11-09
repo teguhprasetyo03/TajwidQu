@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".nun_mati_tanwin.Izhar">
+
+        <TextView
+            android:id="@+id/izhar_title"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qalqalah"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/izhar_desc"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qalqalah adalah bacaan pada huruf-huruf qalqalah dengan bunyi seakan-akan berdetik atau memantul. Huruf qalqalah ada lima yaitu :"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="#504E4E"
+            android:textAlignment="inherit"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/huruf"/>
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qalqalah terbagi dua jenis :"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="#504E4E"
+            android:textAlignment="inherit"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="#FFC107"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3CB142"
+                android:text="Qalqalah kecil / Sughra"
+                android:textColor="#fff"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:text="yaitu apabila salah satu daripada huruf qalqalah itu berbaris mati dan baris matinya adalah asli karena harakat sukun dan bukan karena waqaf. \nContoh: "
+                android:textColor="#504E4E"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="14sp"
+                />
+
+            <ImageView
+                android:id="@+id/img_huruf_izhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:src="@drawable/cth_kecil"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FF5722"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AUDIO"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FF5722"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/play13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_light"
+                    android:background="#00BCD4"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Play"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/pause13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_light"
+                    android:background="#3F51B5"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="PAUSE"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="#FFC107"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3CB142"
+                android:text="Qalqalah besar"
+                android:textColor="#fff"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:text="yaitu apabila salah satu daripada huruf qalqalah itu dimatikan karena waqaf atau berhenti. Dalam keadaan ini, qalqalah dilakukan apabila bacaan diwaqafkan tetapi tidak diqalqalahkan apabila bacaan diteruskan.\n Contoh : "
+                android:textColor="#504E4E"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="14sp"
+                />
+
+            <ImageView
+                android:id="@+id/img_contoh_izhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cth_besar"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FF5722"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AUDIO"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FF5722"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/play14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_light"
+                    android:background="#00BCD4"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Play"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/pause14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_light"
+                    android:background="#3F51B5"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="PAUSE"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

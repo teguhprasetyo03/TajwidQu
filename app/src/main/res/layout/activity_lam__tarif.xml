@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".hukum_lam.Lam_Tarif">
+
+        <TextView
+            android:id="@+id/izhar_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Lam Ta'rif"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/izhar_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="Lam Ta'rif adalah dua huruf 'al' (Bahasa Arab: الـ ‎) yang ditambah pada pangkal kata nama bahasa Arab. Terdapat dua jenis lam ta'rif iaitu qamariah dan syamsiah."
+            android:textAlignment="inherit"
+            android:textColor="#504E4E"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3CB142"
+                android:fontFamily="@font/poppins_light"
+                android:text="Lam Ta'rif qomariah "
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:fontFamily="@font/poppins_light"
+                android:text="di sebut juga dengan Alif Lam Qomariah,
+Qomariah di ambil dari kata qomirun atau bulan, yang maksudnya membaca lam seperti kita memandang tulisan alif lam yang di umpamakan tertulis bulan sehingga nampak jelas dan terang.
+Hukum ALIF LAM QOMARIYYAH terjadi apabila ALIF LAM bertemu dengan salah satu Huruf QOMARIYYAH yang berjumlah 14 huruf, yang terkumpul pada lafazh :"
+                android:textColor="#504E4E"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/img_huruf_izhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:src="@drawable/huruf_lafadz_qomariah" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:fontFamily="@font/poppins_light"
+                android:text="IBGHI-HAJJAKA-WAKHOF-'AQIIMAH \nYaitu huruf:"
+                android:textColor="#504E4E"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:src="@drawable/huruf_qomariah" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:fontFamily="@font/poppins_light"
+                android:text="Contoh :"
+                android:textColor="#504E4E"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:src="@drawable/contoh_qomariah" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFC107"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3CB142"
+                android:fontFamily="@font/poppins_light"
+                android:text="Lam Ta'rif Syamsiah"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:fontFamily="@font/poppins_light"
+                android:text="yaitu membaca lam dengan cara di idhamkan huruf lam ke pada huruf yang di depannya apabila alif lam berhadapan.
+dengan ke 14 huruf berikut ini: :"
+                android:textColor="#504E4E"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/img_contoh_izhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/huruf_syamsiah" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:fontFamily="@font/poppins_light"
+                android:text="Syamsiah berarti matahari atau di umpamakan kita memandang huruf lam yang tertulis di matahari, maka tidak akan terlihat.\nContoh Alif Lam Syamsiah :"
+                android:textColor="#504E4E"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/contoh_syamsiah" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

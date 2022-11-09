@@ -1,0 +1,142 @@
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="19dp"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/oxygen_bold"
+            android:text="tajwidQu"
+            android:textAlignment="center"
+            android:textColor="#DE7773"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:src="@drawable/qr_tajwid" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/oxygen_bold"
+        android:text="Silahkan Pilih \nYang Mau Dipelajari?"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_tanwin"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_button_nun"
+        android:drawableEnd="@drawable/arrow_nun"
+        android:fontFamily="@font/oxygen_bold"
+        android:padding="16dp"
+        android:text="Nun Mati/Tanwin"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_mim_mati"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_button_mim"
+        android:drawableEnd="@drawable/arrow_sukun"
+        android:fontFamily="@font/oxygen_bold"
+        android:padding="16dp"
+        android:text="Mim Mati"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_nun"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_button_nun_mim"
+        android:drawableEnd="@drawable/arrow_nun_mim"
+        android:fontFamily="@font/oxygen_bold"
+        android:padding="16dp"
+        android:text="Nun / Mim Tasydid"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_lam"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_button_lam"
+        android:drawableEnd="@drawable/arrow_lam"
+        android:fontFamily="@font/oxygen_bold"
+        android:padding="16dp"
+        android:text="Hukum Lam"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_qalqalah"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_button_qalqalah"
+        android:drawableEnd="@drawable/arrow_qalqalah"
+        android:fontFamily="@font/oxygen_bold"
+        android:padding="16dp"
+        android:text="Qalqalah"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

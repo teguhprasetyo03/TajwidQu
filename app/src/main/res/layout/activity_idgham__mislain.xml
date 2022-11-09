@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".mim_mati.Idgham_Mislain">
+
+        <TextView
+            android:id="@+id/izhar_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/idgham_mislain_title"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/izhar_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="Idgham Mislain terjadi apabila mim mati bertemu dengan huruf mim \nIdgham Mislain ini memiliki beberapa nama. \nNama lain Idgham Mislain adalah:\n
+- Idgham Mislain\n
+- Idgham Syafawi\n
+- Idgham Mimi\nCara membaca Idgham Mislain adalah dengan cara menyuarakan suara mim rangkap atau di tasydidkan dengan samar-samar dengan panjang 2 harakat."
+            android:textAlignment="inherit"
+            android:textColor="#504E4E"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:background="#FFC107"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3CB142"
+                android:fontFamily="@font/poppins_light"
+                android:text="Contoh-contoh Idhgam Syafawi atau Idgham Mislain :  "
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/img_contoh_izhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/contoh_idgham_mislain" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FF5722"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="AUDIO"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FF5722"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/play8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#00BCD4"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Play"
+                    android:textColor="#fff" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/pause8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#3F51B5"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="PAUSE"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

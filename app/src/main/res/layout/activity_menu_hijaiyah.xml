@@ -1,0 +1,587 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_margin="19dp"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/oxygen_bold"
+                android:text="tajwidQu"
+                android:textAlignment="center"
+                android:textColor="#DE7773"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_alif"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/alif_satu"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Alif"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_ba"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/dua"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Ba'"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_ta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/tiga"
+            android:drawableEnd="@drawable/ta"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Ta'"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_tsa"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Tsa'"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_jim"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Jim"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_ha"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Ha'"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_kho"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Kho'"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_dal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Dal'"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_dzal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Dzal"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_ro"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Ro'"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_zay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Zay"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Sin"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_syin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Syin"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_shod"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Shod"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_dhod"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Dhod"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_tho"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Tho'"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_zho"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Zho'"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_ain"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="'Ain"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_ghain"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Ghain"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_fa"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Fa'"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_qof"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Qof"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_kaf"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Kaf"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_lam"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Lam"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_mim"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Mim"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_nun"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Nun"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_waw"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Waw"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_haa"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="ha"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_lam_alif"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Lam Alif"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_hamzah"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Hamzah"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_ya"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_hijaiyah"
+            android:drawableStart="@drawable/satu"
+            android:drawableEnd="@drawable/ba"
+            android:fontFamily="@font/oxygen_bold"
+            android:padding="16dp"
+            android:text="Ya"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

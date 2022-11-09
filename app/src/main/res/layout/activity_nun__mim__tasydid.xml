@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".nun_mim_tasyid.Nun_Mim_Tasydid">
+
+        <TextView
+            android:id="@+id/izhar_title"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nun_mim_tasydid_title"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/izhar_desc"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nun dan Mim Tasydid adalah Nun atau Mim yang mempunyai tanda tasydid diatasnya.\nJika kata Al-Jalalah diwaqafkan di ujung kata, kadar bacaannya adalah 2 atau 4 atau 6 harakat.\nKata ini dilafaz dengan dengan tebal atau tipis menurut baris huruf yang sebelumnya : \nDibaca dengan dengung dengan kadar panjang bacaan 2 harakat"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="#504E4E"
+            android:textAlignment="inherit"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="#FFC107"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3CB142"
+                android:text="Contoh - contoh Nun dan Mim Tasydid: "
+                android:textColor="#fff"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="14sp"
+                />
+
+            <ImageView
+                android:id="@+id/img_contoh_izhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tasydid"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FF5722"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AUDIO"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FF5722"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/play10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_light"
+                    android:background="#00BCD4"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Play"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/pause10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_light"
+                    android:background="#3F51B5"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="PAUSE"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

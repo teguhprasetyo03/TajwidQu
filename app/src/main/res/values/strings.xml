@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">tajwidQu</string>
+    <string name="izhar_title">Izhar</string>
+    <string name="izhar_desc">Izhar adalah membaca huruf nun mati
+        dan tanwin dengan jelas dan terang(tanpa dengung) apabila bertemu dengan enam
+        huruf-huruf izhar
+    </string>
+    <string name="idgham_title">Idgham</string>
+    <string name="idgham_desc">Idgham secara bahasa berarti meleburkan atau memasukan,
+        dalam hukum nun mati, idgham berarti meleburkan nun mati/tanwin, yang terkait dengan
+        hukum nun mati dan tanwin ini. Idgham terbagi menjadi dua, yaitu Idgham Bi La Ghunah dan
+        Idgham Bi Ghunnah.
+    </string>
+    <string name="huruf_idgham">Huruf idgham ada 6 yakni: Ya\', Ra\', Mim, Lam, Waw and Nun,
+Untuk memudahkan dalam mengingat, huruf-huruf tersebut sering di gabung menjadi kata : Yarmalun.
+    </string>
+    <string name="idgham_bila_gunnah_title">Idgham Bi La Ghunnah</string>
+    <string name="idgham_bila_gunnah_desc">Idgham Bi La Ghunnah yaitu memasukan/meleburkan
+    nun mati dan tanwin(idgham) tanpa di sertai dengan dengung. Huruf idgham bi la ghunnah
+    ada dua yaitu Ra dan Lam
+    </string>
+
+    <string name="idgham_bi_gunnah_title">Idgham Bi Ghunnah</string>
+    <string name="idgham_bi_gunnah_desc">Ghunah berarti dengung, Idgham bi ghunnah adalah meleburkan
+        nun mati atau tanwin di sertai dengan dengung,
+        Terjadi jika nun mati/tanwin bertemu dengan huruf idgham kecuali huruf idgham
+        bi la ghunnah ( Ra dan Lam ).</string>
+
+    <string name="pengeculian_title">Pengecualian</string>
+    <string name="pengeculian_desc">Jika nun mati dan tanwin bertemu dengan huruf idgham dalam
+        satu kata, maka hal ini di baca jelas.
+        hanya ada 4 kata di dalam Al-Quran yang mengandung aturan tersebut,
+        yaitu kata "Ad Dunya" , " Bunyan " , " Sinwan " dan "Qinwan"</string>
+
+    <string name="ikhfa_title">Ikhfa</string>
+    <string name="ikhfa_desc">Dalam hukum nun mati/tanwin ikhfa terjadi apabila nun mati/tanwin
+        bertemu dengan salah satu huruf ikhwa,
+        ikhfa ini juga sering di sebut dengan Ikhfa Haqiqi.
+        Selain ikhfa haqiqi masih ada ikhfa lain yaitu ikhfa syafawi yang berkenaan dengan hukum mim mati.
+        Huruf-huruf ikhfa ini ada 15, karena banyaknya huruf ikhfa ini mungkin akan lebih mudah jika kita
+        menghafalkan huruf izhar, iqlab dan idgham, dan sisanya adalah huruf ikhfa
+        Cara membacanya yaitu dengan samar - samar, dan dengungnya di panjangkan 2 harakat
+    </string>
+
+    <string name="iqlab_title">Iqlab</string>
+    <string name="iqlab_desc">Iqlab yaitu mengganti huruf nun mati atau tanwin menjadi seperti suara
+        huruf mim mati, jika nun mati atau tanwin bertemu dengan huruf Ba, kadar panjangnya 2 harakat
+        penulisan iqlab juga sering diberi tanda dengan huruf mim kecil
+    </string>
+
+    <string name="ikhfa_syafawi_title">"Ikhfa\' Syafawi"</string>
+    <string name="ikhfa_syafawi_desc">Ikhfa\'Syafawi terjadi jika mim mati bertemu dengan ba ب .
+    </string>
+    <string name="idgham_mislain_title">Idgham Mislain</string>
+    <string name="idgham_mislain_desc">
+        Idgham Mislain terjadi apabila mim mati bertemu dengan huruf mim
+    </string>
+    <string name="izhar_syafawi_title">Izhar Syafawi</string>
+    <string name="izhar_syafawi_desc">
+        Izhar Syafawi apabila mim sukun/mati bertemu dengan semua huruf hijaiyyah kecuali mim dan ba
+    </string>
+    <string name="nun_mim_tasydid_title">Nun dan Mim Tasydid</string>
+    <string name="nun_mim_tasydid_desc">
+        Izhar Syafawi apabila mim sukun/mati bertemu dengan semua huruf hijaiyyah kecuali mim dan ba
+    </string>
+    <string name="lam_tarif_title">Lam Ta\'rif</string>
+    <string name="lam_tarif_desc">
+        Izhar Syafawi apabila mim sukun/mati bertemu dengan semua huruf hijaiyyah kecuali mim dan ba
+    </string>
+</resources>
