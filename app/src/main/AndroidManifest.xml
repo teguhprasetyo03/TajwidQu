@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AplikasiTajwid">
-        <activity android:name=".hijaiyah.Alif"
+        <activity android:name=".hijaiyah.Ba"></activity>
+        <activity
+            android:name=".hijaiyah.Alif"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-        <activity android:name=".hijaiyah.MenuHijaiyah"
-            >
+        <activity android:name=".hijaiyah.MenuHijaiyah">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -56,7 +57,7 @@
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity android:name=".nun_mati_tanwin.NunMati_Tanwin" />
         <activity android:name=".MenuTajwid" />
-        <activity android:name=".splashscreen.SplashScreenActivity"></activity>
+        <activity android:name=".splashscreen.SplashScreenActivity" />
         <activity android:name=".MainActivity" />
 
         <meta-data
