@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/izhar_title"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Huruf Hijaiyah"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#000"
+        />
+
+    <!-- alif    -->
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="LgklZTY8LCo"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        android:layout_marginBottom="16dp"/>
+
+<!-- ba -->
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="EOv2ubs67Rc"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        android:layout_marginBottom="16dp"/>
+
+<!--    ta -->
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="hIODRJq1JaE"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        android:layout_marginBottom="16dp"/>
+
+<!--    tsa -->
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="1K-sjs8ZklI"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        android:layout_marginBottom="16dp"/>
+
+<!--   jim -->
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="zMExaxoyxhg"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        android:layout_marginBottom="16dp"/>
+
+<!--   ha -->
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="frGXjSdR-dA"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!--   kho -->
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="a2P7kx4p8to"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!--   dal -->
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="GUfDtlYgWQA"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!--    https://youtu.be/H7B91tmYVr8-->
+
+</LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

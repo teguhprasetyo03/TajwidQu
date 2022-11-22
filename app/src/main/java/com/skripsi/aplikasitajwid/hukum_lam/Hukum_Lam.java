@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 
@@ -11,6 +12,7 @@ import com.skripsi.aplikasitajwid.R;
 
 public class Hukum_Lam extends AppCompatActivity {
     AppCompatButton btn_lam_tarif, btn_al_jalalah;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

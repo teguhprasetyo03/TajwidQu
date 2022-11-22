@@ -51,7 +51,7 @@ public class Iqlab extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio1() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer6 = MediaPlayer.create(this, R.raw.contoh_iqlab);
+        mediaPlayer6 = MediaPlayer.create(this, R.raw.iqlab);
 
         //Kondisi Button setelah tombol play di klik
         Play6.setEnabled(false);

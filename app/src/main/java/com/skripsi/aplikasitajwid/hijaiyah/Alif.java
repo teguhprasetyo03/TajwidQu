@@ -52,7 +52,7 @@ public class Alif extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio1() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer14 = MediaPlayer.create(this, R.raw.fatah_aa);
+        mediaPlayer14 = MediaPlayer.create(this, R.raw.alif);
 
         //Kondisi Button setelah tombol play di klik
         Play16.setEnabled(false);

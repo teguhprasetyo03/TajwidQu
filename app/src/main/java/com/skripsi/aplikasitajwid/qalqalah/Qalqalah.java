@@ -37,6 +37,7 @@ public class Qalqalah extends AppCompatActivity {
         getSupportActionBar().setTitle("Qalqalah"); // for set actionbar title
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); // for add back arrow in action bar
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // TODO Auto-generated method stub
@@ -60,7 +61,7 @@ public class Qalqalah extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio2() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer13 = MediaPlayer.create(this, R.raw.cth_kecil);
+        mediaPlayer13 = MediaPlayer.create(this, R.raw.qalqalah_kecil);
 
         //Kondisi Button setelah tombol play di klik
         Play13.setEnabled(false);
@@ -88,7 +89,7 @@ public class Qalqalah extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio3() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer14 = MediaPlayer.create(this, R.raw.cth_besar);
+        mediaPlayer14 = MediaPlayer.create(this, R.raw.qalqalah_besar);
 
         //Kondisi Button setelah tombol play di klik
         Play14.setEnabled(false);

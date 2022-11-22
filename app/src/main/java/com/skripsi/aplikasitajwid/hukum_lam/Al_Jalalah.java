@@ -62,7 +62,7 @@ public class Al_Jalalah extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio2() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer11 = MediaPlayer.create(this, R.raw.badafathah);
+        mediaPlayer11 = MediaPlayer.create(this, R.raw.targhliz);
 
         //Kondisi Button setelah tombol play di klik
         Play11.setEnabled(false);
@@ -90,7 +90,7 @@ public class Al_Jalalah extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio3() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer12 = MediaPlayer.create(this, R.raw.badakasrah);
+        mediaPlayer12 = MediaPlayer.create(this, R.raw.tarqiq);
 
         //Kondisi Button setelah tombol play di klik
         Play12.setEnabled(false);

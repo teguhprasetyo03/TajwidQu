@@ -51,7 +51,7 @@ public class Izhar_Syafawi extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio1() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer9 = MediaPlayer.create(this, R.raw.contoh_izhar_syafawi);
+        mediaPlayer9 = MediaPlayer.create(this, R.raw.izhar_syafawi);
 
         //Kondisi Button setelah tombol play di klik
         Play9.setEnabled(false);

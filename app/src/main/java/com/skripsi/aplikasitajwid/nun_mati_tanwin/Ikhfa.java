@@ -50,7 +50,7 @@ public class Ikhfa extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio1() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer5 = MediaPlayer.create(this, R.raw.contoh_ikhfa);
+        mediaPlayer5 = MediaPlayer.create(this, R.raw.ikhfa);
 
         //Kondisi Button setelah tombol play di klik
         Play5.setEnabled(false);

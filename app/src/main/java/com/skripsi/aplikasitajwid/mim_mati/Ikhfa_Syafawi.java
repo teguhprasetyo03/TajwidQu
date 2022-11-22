@@ -51,7 +51,7 @@ public class Ikhfa_Syafawi extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio1() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer7 = MediaPlayer.create(this, R.raw.contoh_ikhfa_syafawi);
+        mediaPlayer7 = MediaPlayer.create(this, R.raw.ikhfa_syafawi);
 
         //Kondisi Button setelah tombol play di klik
         Play7.setEnabled(false);

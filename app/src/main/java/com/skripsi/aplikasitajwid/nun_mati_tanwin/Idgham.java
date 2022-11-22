@@ -73,7 +73,7 @@ public class Idgham extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio2() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer2 = MediaPlayer.create(this, R.raw.idgham_bilagunnah);
+        mediaPlayer2 = MediaPlayer.create(this, R.raw.idgham_bi_la_ghunnah);
 
         //Kondisi Button setelah tombol play di klik
         Play2.setEnabled(false);
@@ -101,7 +101,7 @@ public class Idgham extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio3() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer3 = MediaPlayer.create(this, R.raw.tajwid_idgham_bigunnah);
+        mediaPlayer3 = MediaPlayer.create(this, R.raw.idgham_bi_ghunnah);
 
         //Kondisi Button setelah tombol play di klik
         Play3.setEnabled(false);
@@ -129,7 +129,7 @@ public class Idgham extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio4() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer4 = MediaPlayer.create(this, R.raw.idgham_pengecualian);
+        mediaPlayer4 = MediaPlayer.create(this, R.raw.pengecualian);
 
         //Kondisi Button setelah tombol play di klik
         Play4.setEnabled(false);

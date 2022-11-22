@@ -51,7 +51,7 @@ public class Idgham_Mislain extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio1() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer8 = MediaPlayer.create(this, R.raw.contoh_idgham_mislain);
+        mediaPlayer8 = MediaPlayer.create(this, R.raw.idgham_mislain);
 
         //Kondisi Button setelah tombol play di klik
         Play8.setEnabled(false);

@@ -50,7 +50,7 @@ public class Nun_Mim_Tasydid extends AppCompatActivity {
     //Method untuk memainkan musik
     private void playAudio1() {
         //Menentukan resource audio yang akan dijalankan
-        mediaPlayer10 = MediaPlayer.create(this, R.raw.tasydid);
+        mediaPlayer10 = MediaPlayer.create(this, R.raw.nun_dan_mim_tasydid);
 
         //Kondisi Button setelah tombol play di klik
         Play10.setEnabled(false);
